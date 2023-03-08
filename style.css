@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: monospace;
+    font-size: 0.9vw;
+    background-repeat: repeat;
+}
+
+header{
+    background-color: white;
+    width: 66%;
+    margin: auto;
+    padding: 1%;
+}
+
+main{
+    background-color: white;
+    width: 66%;
+    margin: auto;
+}
+
+footer{
+    background-color: white;
+    width: 66%;
+    margin: auto;
+    padding: 1%;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+  color: grey;
+}
+
+.bio{
+    text-indent: 1em;
+    padding: 3%;
+}
+
+.work{
+    margin: 3%;
+}
+
+.work-list{
+    padding: 1%;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.pics img{
+    max-height: 40%;
+    max-width: 40%;
+}
