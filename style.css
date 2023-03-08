@@ -1,30 +1,29 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: black;
     font-family: monospace;
     font-size: 0.9vw;
-    background-repeat: repeat;
 }
 
-header{
+header {
     background-color: white;
     width: 66%;
     margin: auto;
     padding: 1%;
 }
 
-main{
+main {
     background-color: white;
     width: 66%;
     margin: auto;
 }
 
-footer{
+footer {
     background-color: white;
     width: 66%;
     margin: auto;
@@ -39,26 +38,27 @@ a:hover {
   color: grey;
 }
 
-.bio{
+.bio {
     text-indent: 1em;
     padding: 3%;
+    padding-bottom: 1%;
 }
 
-.work{
+.work {
     margin: 3%;
 }
 
-.work-list{
+.work-list {
     padding: 1%;
 }
 
-.footer-links{
+.footer-links {
     display: flex;
     justify-content: space-around;
     list-style: none;
 }
 
-.pics img{
-    max-height: 40%;
-    max-width: 40%;
+.footer-links a:link {
+  text-decoration: none;
 }
+
