@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2.5%;
+    font-size: 100%;
+}
+
+header {
+    padding: 1%;
+}
+
+footer {
+    background-color: white;
+    padding: 1%;
+}
+
+#wrapper {
+    font-family: monospace;
+    font-size: 1.25em;
+    background-color: white;
+    width: 60%;
+    margin: auto;
+}
+
+a {
+    color: black;
+
+}
+
+a:hover {
+    color: grey;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.bio {
+    text-indent: 1em;
+    padding: 3%;
+    padding-bottom: 0%;
+}
+
+.output {
+    padding: 3%;
+}
+
+.output ul {
+    padding: 1%;
+    list-style: square;
+}
+
+.output hr {
+    border: 1px dashed grey;
+    margin: 0.5%;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
