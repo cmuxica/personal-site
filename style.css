@@ -77,3 +77,13 @@ a:hover {
     border: 1px dashed grey;
     margin: 0.5%;
 }
+
+/* photos */
+#photos {
+    display: block;
+}
+
+#photo {
+    height: auto;
+    width: auto;
+}
