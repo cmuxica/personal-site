@@ -80,10 +80,12 @@ a:hover {
 
 /* photos */
 #photos {
+    width: 66%;
+    margin: auto;
     display: block;
 }
 
 #photo {
     height: auto;
-    width: auto;
+    max-width: 95%;
 }
