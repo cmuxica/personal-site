@@ -85,6 +85,7 @@ a:hover {
 
 /* photos */
 #photos {
+    text-align: center;
     flex: 50%;
 }
 
