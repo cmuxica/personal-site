@@ -82,19 +82,3 @@ a:hover {
     border: 1px dashed grey;
     margin: 0.5%;
 }
-
-/* photos */
-#photos {
-    text-align: center;
-    flex: 50%;
-}
-
-#photo {
-    display: block;
-    height: auto;
-    max-width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2.5%;
-    margin-botom: 2.5%;
-}
